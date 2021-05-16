@@ -1,4 +1,5 @@
-// cone lateral area wrapping/unwrapping
+// visualize how a circular "wedge" shape bends into a cone & vice versa, as
+// well as how wedge angle/shape affects the resulting cone "sharpness"
 
 // thickness of surface
 EPS = .01;
