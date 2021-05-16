@@ -15,8 +15,8 @@ readme-top:
       dir=${path%/*}
       img=$dir/small.gif
 
-      echo "- [$dir]($dir) –"
-      sed -e '/^$/,$ d' -e 's|^// |  |' "$scad"
-      echo
-      [[ -e $img ]] && echo "  ![$dir]($img)"
+      echo '> [**`'"$dir"'`**]('"$dir) –"
+      sed -e '/^$/,$ d' -e 's|^// |> |' "$scad"
+      echo '>'
+      [[ -e $img ]] && echo "> ![$dir]($img)"
     done
