@@ -9,4 +9,4 @@ encountered in math and physics.
   shape bends into a cone & vice versa, as well as how wedge angle/shape
   affects the resulting cone "sharpness"
 
-  ![cone lateral area](cone-lateral-area/cone-lateral-area.gif)
+  ![cone lateral area](cone-lateral-area/small.gif)
